@@ -8,7 +8,7 @@ const cors = require("cors");
 
 // Configuration
 const port = process.env.PORT || 5000;
-const mongoUrl = "mongodb+srv://guruprasadbc:guru2003@cluster0.qkaikxf.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "";
 const JWT_SECRET = "sdfghjkl;kjhgfdghjkljhgfhjkljhgfh9876546789876578()././.";
 
 // Connect to MongoDB

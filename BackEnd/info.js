@@ -5,7 +5,7 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 const bcrypt = require("bcryptjs");
-const mongoUrl = "mongodb+srv://guruprasadbc:guru2003@cluster0.qkaikxf.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "";
 
 mongoose.connect(mongoUrl, {
     useNewUrlParser: true,
